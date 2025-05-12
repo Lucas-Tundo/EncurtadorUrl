@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5GS/kolxVBw=",
+  "dgSpecHash": "SDY11rTW6jQ=",
   "success": true,
   "projectFilePath": "E:\\projetos C#\\EncurtadorURL\\EncurtadorURL\\EncurtadorURL.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\lucas\\.nuget\\packages\\fluentvalidation\\11.8.0\\fluentvalidation.11.8.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\litedb\\5.0.21\\litedb.5.0.21.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0\\microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\nanoid\\3.1.0\\nanoid.3.1.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"

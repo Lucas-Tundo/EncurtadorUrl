@@ -71,6 +71,19 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Nanoid/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Nanoid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Nanoid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -209,6 +222,24 @@
         "microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
         "microsoft.extensions.dependencymodel.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "Nanoid/3.1.0": {
+      "sha512": "5vhxZ+1iVH213boPsR3KYQXWObZQcaGvLU9ytTroWJFeVzV2EFAtGgrmMpb8BCxd+KWeBASniZLzd3UQ0tkhRQ==",
+      "type": "package",
+      "path": "nanoid/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net48/Nanoid.dll",
+        "lib/net48/Nanoid.xml",
+        "lib/net8.0/Nanoid.dll",
+        "lib/net8.0/Nanoid.xml",
+        "lib/netstandard2.0/Nanoid.dll",
+        "lib/netstandard2.0/Nanoid.xml",
+        "nanoid.3.1.0.nupkg.sha512",
+        "nanoid.nuspec"
       ]
     },
     "System.Buffers/4.5.1": {
@@ -354,7 +385,8 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "Carter >= 8.0.0-preview.4",
-      "LiteDB >= 5.0.21"
+      "LiteDB >= 5.0.21",
+      "Nanoid >= 3.1.0"
     ]
   },
   "packageFolders": {
@@ -415,6 +447,10 @@
           "LiteDB": {
             "target": "Package",
             "version": "[5.0.21, )"
+          },
+          "Nanoid": {
+            "target": "Package",
+            "version": "[3.1.0, )"
           }
         },
         "imports": [

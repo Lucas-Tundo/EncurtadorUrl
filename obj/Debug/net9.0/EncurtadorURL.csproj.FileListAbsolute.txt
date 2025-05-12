@@ -17,7 +17,6 @@ E:\projetos C#\EncurtadorURL\EncurtadorURL\obj\Debug\net9.0\EncurtadorURL.Assemb
 E:\projetos C#\EncurtadorURL\EncurtadorURL\obj\Debug\net9.0\EncurtadorURL.csproj.CoreCompileInputs.cache
 E:\projetos C#\EncurtadorURL\EncurtadorURL\obj\Debug\net9.0\EncurtadorURL.MvcApplicationPartsAssemblyInfo.cache
 E:\projetos C#\EncurtadorURL\EncurtadorURL\obj\Debug\net9.0\scopedcss\bundle\EncurtadorURL.styles.css
-E:\projetos C#\EncurtadorURL\EncurtadorURL\obj\Debug\net9.0\compressed\zzuhewups2-3r8b2a0bt1.gz
 E:\projetos C#\EncurtadorURL\EncurtadorURL\obj\Debug\net9.0\staticwebassets.build.json
 E:\projetos C#\EncurtadorURL\EncurtadorURL\obj\Debug\net9.0\staticwebassets.development.json
 E:\projetos C#\EncurtadorURL\EncurtadorURL\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -35,4 +34,7 @@ E:\projetos C#\EncurtadorURL\EncurtadorURL\obj\Debug\net9.0\EncurtadorURL.pdb
 E:\projetos C#\EncurtadorURL\EncurtadorURL\obj\Debug\net9.0\EncurtadorURL.genruntimeconfig.cache
 E:\projetos C#\EncurtadorURL\EncurtadorURL\obj\Debug\net9.0\ref\EncurtadorURL.dll
 E:\projetos C#\EncurtadorURL\EncurtadorURL\bin\Debug\net9.0\LiteDB.dll
-E:\projetos C#\EncurtadorURL\EncurtadorURL\obj\Debug\net9.0\compressed\hxsqujqouv-91swu4qr3m.gz
+E:\projetos C#\EncurtadorURL\EncurtadorURL\obj\Debug\net9.0\EncurtadorURL.sourcelink.json
+E:\projetos C#\EncurtadorURL\EncurtadorURL\bin\Debug\net9.0\Nanoid.dll
+E:\projetos C#\EncurtadorURL\EncurtadorURL\obj\Debug\net9.0\compressed\zzuhewups2-vcbhym8veq.gz
+E:\projetos C#\EncurtadorURL\EncurtadorURL\obj\Debug\net9.0\compressed\hxsqujqouv-y8syt046yv.gz

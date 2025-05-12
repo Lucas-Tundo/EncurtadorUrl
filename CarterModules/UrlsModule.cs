@@ -7,6 +7,7 @@ using Carter;
 using Carter.ModelBinding;
 using EncurtadorURL.Models;
 using LiteDB;
+using NanoidDotNet;
 
 namespace EncurtadorURL.CarterModules;
 
@@ -15,29 +16,30 @@ public class UrlsModule : ICarterModule {
         // POST /urls
         app.MapPost("/urls", async (HttpContext ctx, ILiteDatabase db) => {
             var data = await ctx.Request.ReadFromJsonAsync<UrlEntry>();
-            if (data is null || string.IsNullOrWhiteSpace(data.OriginalUrl)) {
+            if (data is null || string.IsNullOrWhiteSpace(data.Url)) {
                 ctx.Response.StatusCode = 400;
                 await ctx.Response.WriteAsync("URL inválida.");
                 return;
             }
 
-            data.ShortCode = Guid.NewGuid().ToString("N")[..6];
+            data.Chunck = Nanoid.Generate(size: 9);
 
             var col = db.GetCollection<UrlEntry>("urls");
             col.Insert(data);
 
             await ctx.Response.WriteAsJsonAsync(new {
-                shortUrl = $"https://localhost:5050/{data.ShortCode}"
+                shortUrl = $"https://localhost:5053/{data.Chunck}"
             });
         });
 
-        // GET /Exemplo: //https://localhost:5050/{chunk}
-        app.MapGet("/{chunk}", (string chunk, ILiteDatabase db) => {
+        // GET /Exemplo: //https://localhost:5050/{chunck}
+        app.MapGet("/{chunck}", (string chunck, ILiteDatabase db) => {
             var col = db.GetCollection<UrlEntry>("urls");
-            var entry = col.FindOne(x => x.ShortCode == chunk);
+            var entry = col.FindOne(x => x.Chunck == chunck);
+            
 
             return entry is not null
-                ? Results.Redirect(entry.OriginalUrl)
+                ? Results.Redirect(entry.Url)
                 : Results.NotFound("URL não encontrada.");
         });
     }

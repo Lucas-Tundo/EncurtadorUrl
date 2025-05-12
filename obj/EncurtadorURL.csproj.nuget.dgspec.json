@@ -58,6 +58,10 @@
             "LiteDB": {
               "target": "Package",
               "version": "[5.0.21, )"
+            },
+            "Nanoid": {
+              "target": "Package",
+              "version": "[3.1.0, )"
             }
           },
           "imports": [
