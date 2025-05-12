@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "5GS/kolxVBw=",
+  "success": true,
+  "projectFilePath": "E:\\projetos C#\\EncurtadorURL\\EncurtadorURL\\EncurtadorURL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lucas\\.nuget\\packages\\carter\\8.0.0\\carter.8.0.0.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\fluentvalidation\\11.8.0\\fluentvalidation.11.8.0.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\litedb\\5.0.21\\litedb.5.0.21.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0\\microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "EncurtadorURL depende de Carter (>= 8.0.0-preview.4) mas Carter 8.0.0-preview.4 não foi encontrado. Carter 8.0.0 foi resolvido.",
+      "libraryId": "Carter",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}

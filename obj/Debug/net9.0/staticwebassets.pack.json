@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\projetos C#\\EncurtadorURL\\EncurtadorURL\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "E:\\projetos C#\\EncurtadorURL\\EncurtadorURL\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.EncurtadorURL.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.EncurtadorURL.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.EncurtadorURL.props",
+      "PackagePath": "build\\EncurtadorURL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.EncurtadorURL.props",
+      "PackagePath": "buildMultiTargeting\\EncurtadorURL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.EncurtadorURL.props",
+      "PackagePath": "buildTransitive\\EncurtadorURL.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

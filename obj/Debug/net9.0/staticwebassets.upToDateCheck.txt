@@ -1,0 +1,4 @@
+E:\projetos C#\EncurtadorURL\EncurtadorURL\wwwroot\index.html
+E:\projetos C#\EncurtadorURL\EncurtadorURL\wwwroot\js\index.js
+wwwroot\index.html
+wwwroot\js\index.js
